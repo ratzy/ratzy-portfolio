@@ -86,12 +86,13 @@
                 <ul class="company-details-list">
                     <li class="company-item">
                         <div class="timeline-wrapper">
-                            <div class="circle"></div>
+                            <i class="fa fa-briefcase"></i>
                             <div class="line work-item"></div>
                         </div>
                         <div class="company-desc">
                             <span class="date">June 7, 2016 <em>to</em> Present</span>
                             <a class="company-name" href="madaboutdigital.co.in">Mad About Digital</a>
+                            <span class="designation">Creative UI / UX designer / developer </span>
                             <div class="responsibilities">
                                 <span>Responsibilities</span>
                                 <p>Create kick ass design and implement to web.</p>

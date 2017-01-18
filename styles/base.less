@@ -667,14 +667,15 @@ body.no-scroll {
 .timeline-wrapper {
     .inline-element;
     vertical-align: top;
-    .circle {
+    margin-top: -.5em;
+    .fa {
         .rel-wrapper;
-        .red-color-background;
-        z-index: 1;
-        width: .8em;
-        height: .8em;
+        font-size: 1rem;
+        border: 1px solid transparent;
+        padding: .4em .3em .2em .3em;
         border-radius: 50%;
-        border: 2px solid lighten(@redColor, 10%);
+        background: #f3f3f3;
+        z-index: 1;
     }
     .line {
         .red-color-background;
@@ -683,7 +684,7 @@ body.no-scroll {
         width: .1em;
         position: absolute;
         top: .8em;
-        left: .5em;
+        left: .8em;
     }
     .line.show {
         height: 100%;
@@ -701,8 +702,8 @@ body.no-scroll {
     .block-element;
     .small-font-size;
     .open-sans-light-font;
+    .red-color-font;
     letter-spacing: .1em;
-    color: lighten(@greyColor, 25%);
 }
 
 .company-item .company-name {
@@ -712,10 +713,17 @@ body.no-scroll {
     .block-element;
     .black-color-font;
     font-size: 1.45em;
-    margin: 1em 0;
+    margin-top: 1em;
+}
+
+.company-item .designation {
+    .open-sans-regular-font;
+    .small-font-size;
+    color:lighten(@blackColor, 15%);
 }
 
 .company-item .responsibilities {
+    margin-top: 1.5em;
     span {
         .light-font-weight;
         .block-element;
@@ -819,6 +827,7 @@ body.no-scroll {
     color: #efefef;
     opacity: .6;
 }
+
 .contact-item p:hover .fa,
 .contact-item p:hover a {
     .white-color-font;
