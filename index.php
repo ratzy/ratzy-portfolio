@@ -114,43 +114,43 @@
                 <ul class="progress-list">
                     <li class="progress-item">
                         <em>HTML 5</em>
-                        <div class="progress-bar" data-width="70" data-bg-color="#0365b3">
+                        <div class="progress-bar" data-width="70" data-bg-color="#f21f1f">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
                     <li class="progress-item">
                         <em>CSS 3</em>
-                        <div class="progress-bar" data-width="60" data-bg-color="#0471c8">
+                        <div class="progress-bar" data-width="60" data-bg-color="#fc2525">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
                     <li class="progress-item">
                         <em>Less</em>
-                        <div class="progress-bar" data-width="60" data-bg-color="#0471c8">
+                        <div class="progress-bar" data-width="60" data-bg-color="#f22525">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
                     <li class="progress-item">
                         <em>Responsiveness</em>
-                        <div class="progress-bar" data-width="60" data-bg-color="#0471c8">
+                        <div class="progress-bar" data-width="60" data-bg-color="#f42828">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
                     <li class="progress-item">
                         <em>Bootstrap 3</em>
-                        <div class="progress-bar" data-width="60" data-bg-color="#0471c8">
+                        <div class="progress-bar" data-width="60" data-bg-color="#f42a2a">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
                     <li class="progress-item">
                         <em>Jquery</em>
-                        <div class="progress-bar" data-width="50" data-bg-color="#0783e7">
+                        <div class="progress-bar" data-width="50" data-bg-color="#f83d3d">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
                     <li class="progress-item">
                         <em>Photoshop</em>
-                        <div class="progress-bar" data-width="40" data-bg-color="#018eff">
+                        <div class="progress-bar" data-width="40" data-bg-color="#f64444">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
@@ -158,23 +158,24 @@
                 </ul>
             </div>
             <div class="contact-wrapper red-color-background">
-                <h3 class="section-title">
+              <h3 class="section-title">
                 Contact
-                <span>Get in touch.</span>
+                <span>Get in touch</span>
                 </h3>
+                <p class="message">Thank you for stopping by.</p>
                 <div class="contact-details">
-                    <div class="contact-item">
-                        <h3 class="name">Rathijit Adhikary</h3>
-                        <p><i class="fa fa-envelope"></i><a href="mailto:rathiadhikary@gmail.com" class="mail-address">rathiadhikary@gmail.com</a></p>
-                        <p><i class="fa fa-mobile"></i><a href="tel:919738893655" class="contact-number">+91 97388 93655</a></p>
-                    </div>
-                    <div class="contact-item social">
+                    <img src="images/rathi.jpg" alt="Rathijit"/>
+                    <h3 class="name">Rathijit Adhikary</h3>
+                    <p><i class="fa fa-envelope"></i><a href="mailto:rathiadhikary@gmail.com" class="mail-address">rathiadhikary@gmail.com</a></p>
+                    <p><i class="fa fa-mobile"></i><a href="tel:919738893655" class="contact-number">+91 97388 93655</a></p>
+                    <div class="social">
                         <p class="social-connect-headng">Connect with me</p>
                         <a href="https://in.linkedin.com/in/rathijit-adhikary-9b537b72"><i class="fa fa-linkedin-square"></i></a>
                         <a href="https://github.com/ratzy"><i class="fa fa-github"></i></a>
                     </div>
-                    <div class="clear"></div>
                 </div>
+
+                <div class="clear"></div>
 
             </div>
         </section>
