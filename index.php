@@ -14,7 +14,7 @@
         <section class="main-wrapper">
             <div class="hero-wrapper win-height">
                 <div class="item">
-                    <div class="desc">
+                    <div class="desc" data-parallax='{"y" : -40}'>
                         <h1>Rathijit Adhikary</h1>
                         <p>Creative UI / UX Designer / Developer</p>
                     </div>
@@ -30,25 +30,25 @@
                 <span>Design and Development is fun.</span>
             </h3>
                 <ul class="work-list">
-                    <li class="work-item">
+                    <li class="work-item" data-parallax='{"y" : -40}'>
                         <img src="images/247.gif" />
                         <div class="desc">
                             <h3>[24]7 Landing Page</h3>
                             <span>Methods used</span>
                             <p>Smooth scroll, SVG, MAP</p>
-                            <a href="#" class="click-to-view"><i class="fa fa-share"></i></a>
+                            <a href="247-landing-page.php" class="click-to-view"><i class="fa fa-share"></i></a>
                         </div>
                     </li>
-                    <li class="work-item">
+                    <li class="work-item" data-parallax='{"y" : -40}'>
                         <img src="images/ani-sherin.gif" />
                         <div class="desc">
-                            <h3>Marriage card</h3>
+                            <h3>Wedding card</h3>
                             <span>Methods used</span>
                             <p>Smooth scroll, SVG, MAP</p>
                             <a href="#" class="click-to-view"><i class="fa fa-share"></i></a>
                         </div>
                     </li>
-                    <li class="work-item">
+                    <li class="work-item" data-parallax='{"y" : -40}'>
                         <img src="images/beyond.jpg" />
                         <div class="desc">
                             <h3>Beyond</h3>
@@ -57,28 +57,37 @@
                             <a href="#" class="click-to-view"><i class="fa fa-share"></i></a>
                         </div>
                     </li>
-                    <li class="work-item">
+                    <li class="work-item" data-parallax='{"y" : -40}'>
                         <img src="images/sahaj.gif" />
                         <div class="desc">
                             <h3>Sahaj Soft</h3>
                             <span>Methods used</span>
                             <p>Smooth scroll, SVG, MAP</p>
-                            <a href="#" class="click-to-view"><i class="fa fa-share"></i></a>
+                            <a href="sahaj.php" class="click-to-view"><i class="fa fa-share"></i></a>
                         </div>
                     </li>
-                    <li class="work-item">
+                    <li class="work-item" data-parallax='{"y" : -40}'>
                         <img src="images/geektrust.gif" />
                         <div class="desc">
                             <h3>Geektrust/hire</h3>
                             <span>Methods used</span>
                             <p>Smooth scroll, SVG, MAP</p>
-                            <a href="#" class="click-to-view"><i class="fa fa-share"></i></a>
+                            <a href="gt-recruitment-page.php" class="click-to-view"><i class="fa fa-share"></i></a>
+                        </div>
+                    </li>
+                    <li class="work-item" data-parallax='{"y" : -40}'>
+                        <img src="images/teenovators.jpg" />
+                        <div class="desc">
+                            <h3>Teenovators</h3>
+                            <span>Methods used</span>
+                            <p>Paralax</p>
+                            <a href="teenovators.php" class="click-to-view"><i class="fa fa-share"></i></a>
                         </div>
                     </li>
                     <li class="clear"></li>
                 </ul>
             </div>
-            <div class="experience-wrapper">
+            <div class="experience-wrapper white-color-background">
                 <h3 class="section-title">
                 Experience
                 <span>Work is passion.</span>
@@ -112,45 +121,51 @@
                 <span>I am good at.</span>
                 </h3>
                 <ul class="progress-list">
-                    <li class="progress-item">
+                    <li class="progress-item" data-parallax='{"y" : -40}'>
                         <em>HTML 5</em>
-                        <div class="progress-bar" data-width="70" data-bg-color="#f21f1f">
+                        <div class="progress-bar" data-width="90" data-bg-color="#048cff">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
-                    <li class="progress-item">
+                    <li class="progress-item" data-parallax='{"y" : -40}'>
                         <em>CSS 3</em>
-                        <div class="progress-bar" data-width="60" data-bg-color="#fc2525">
+                        <div class="progress-bar" data-width="90" data-bg-color="#048cff">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
-                    <li class="progress-item">
+                    <li class="progress-item" data-parallax='{"y" : -40}'>
                         <em>Less</em>
-                        <div class="progress-bar" data-width="60" data-bg-color="#f22525">
+                        <div class="progress-bar" data-width="85" data-bg-color="#048cff">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
-                    <li class="progress-item">
+                    <li class="progress-item" data-parallax='{"y" : -40}'>
                         <em>Responsiveness</em>
-                        <div class="progress-bar" data-width="60" data-bg-color="#f42828">
+                        <div class="progress-bar" data-width="85" data-bg-color="#048cff">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
-                    <li class="progress-item">
+                    <li class="progress-item" data-parallax='{"y" : -40}'>
                         <em>Bootstrap 3</em>
-                        <div class="progress-bar" data-width="60" data-bg-color="#f42a2a">
+                        <div class="progress-bar" data-width="60" data-bg-color="#048cff">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
-                    <li class="progress-item">
+                    <li class="progress-item" data-parallax='{"y" : -40}'>
+                        <em>JavaScript</em>
+                        <div class="progress-bar" data-width="85" data-bg-color="#048cff">
+                            <span class="progress-bar-bg"></span>
+                        </div>
+                    </li>
+                    <li class="progress-item" data-parallax='{"y" : -40}'>
                         <em>Jquery</em>
-                        <div class="progress-bar" data-width="50" data-bg-color="#f83d3d">
+                        <div class="progress-bar" data-width="85" data-bg-color="#048cff">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
-                    <li class="progress-item">
+                    <li class="progress-item" data-parallax='{"y" : -40}'>
                         <em>Photoshop</em>
-                        <div class="progress-bar" data-width="40" data-bg-color="#f64444">
+                        <div class="progress-bar" data-width="70" data-bg-color="#048cff">
                             <span class="progress-bar-bg"></span>
                         </div>
                     </li>
@@ -158,16 +173,17 @@
                 </ul>
             </div>
             <div class="contact-wrapper red-color-background">
-              <h3 class="section-title">
+                <h3 class="section-title">
                 Contact
                 <span>Get in touch</span>
                 </h3>
                 <p class="message">Thank you for stopping by.</p>
-                <div class="contact-details">
-                    <img src="images/rathi.jpg" alt="Rathijit"/>
+                <div class="contact-details" data-parallax='{"y" : -40}'>
+                    <img src="images/rathi.jpg" alt="Rathijit" />
                     <h3 class="name">Rathijit Adhikary</h3>
                     <p><i class="fa fa-envelope"></i><a href="mailto:rathiadhikary@gmail.com" class="mail-address">rathiadhikary@gmail.com</a></p>
                     <p><i class="fa fa-mobile"></i><a href="tel:919738893655" class="contact-number">+91 97388 93655</a></p>
+                    <p><i class="fa fa-map-marker"></i><a>Bangalore, India</a></p>
                     <div class="social">
                         <p class="social-connect-headng">Connect with me</p>
                         <a href="https://in.linkedin.com/in/rathijit-adhikary-9b537b72"><i class="fa fa-linkedin-square"></i></a>

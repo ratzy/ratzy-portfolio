@@ -5,19 +5,21 @@ var isMobile = false;
 var isTablet = false;
 $(document).ready(function () {
     initVariables();
-    setWinHeight();
+    //    setWinHeight();
     initParalaxScroll();
     setTimeout(function () {
         $('.gif-block').addClass('hide');
-        $('body').addClass('no-scroll');
+        //        $('body').addClass('no-scroll');
         $('.gif-block img').hide();
     }, 1800);
     setTimeout(function () {
         $('.main-wrapper').addClass('show');
-        $('body').removeClass('no-scroll');
+//        $('body').removeClass('no-scroll');
+        $('.over-view-wrapper').addClass('show');
+        $('.launch-site').addClass('show');
     }, 2100);
     setTimeout(function () {
-        $('.hero-wrapper .desc').addClass('show');
+        $('.hero-wrapper .desc, .hero-wrapper img').addClass('show');
     }, 2500);
 });
 
@@ -43,11 +45,11 @@ function initVariables() {
         isTablet = false;
 }
 
-function setWinHeight() {
-    $('.win-height').each(function () {
-        $(this).height($(window).height() * .75);
-    });
-}
+//function setWinHeight() {
+//    $('.win-height').each(function () {
+//        $(this).height($(window).height() * .75);
+//    });
+//}
 
 function initParalaxScroll() {
     $(window).scroll(function () {
@@ -65,8 +67,6 @@ function initParalaxScroll() {
                 var progressBarColor = $(this).find('.progress-bar').attr('data-bg-color');
                 $(this).find('.progress-bar-bg').css("width", progressBarWidth + '%').css("background", progressBarColor);
             }
-
         });
-
     });
 }

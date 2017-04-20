@@ -13,6 +13,8 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,400,300,800' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700,900' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 <!--Work Based Fonts-->
 <link href='https://fonts.googleapis.com/css?family=Advent+Pro:100,300,400,600' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet" type="text/css">
@@ -24,7 +26,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js" type="text/javascript"></script>
-<script src="http://hammerjs.github.io/dist/hammer.min.js" type="text/javascript"></script>
-<script src="http://hammerjs.github.io/dist/hammer-time.min.js" type="text/javascript"></script>
 <script src="scripts/less.js" type="text/javascript"></script>
 <script src="scripts/base.js" type="text/javascript"></script>
+<script src="scripts/jquery.parallax-scroll.js" type="text/javascript"></script>
